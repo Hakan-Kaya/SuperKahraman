@@ -12,6 +12,7 @@
 		2B99A50E2814523200AE7507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B99A50D2814523200AE7507 /* Assets.xcassets */; };
 		2B99A5112814523200AE7507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B99A5102814523200AE7507 /* Preview Assets.xcassets */; };
 		2B99A518281453C800AE7507 /* SuperKahramanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99A517281453C800AE7507 /* SuperKahramanModel.swift */; };
+		2B99A51A2815963100AE7507 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99A5192815963100AE7507 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2B99A50D2814523200AE7507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B99A5102814523200AE7507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B99A517281453C800AE7507 /* SuperKahramanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperKahramanModel.swift; sourceTree = "<group>"; };
+		2B99A5192815963100AE7507 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2B99A5092814522F00AE7507 /* SuperKahramanApp.swift */,
 				2B99A50B2814522F00AE7507 /* ContentView.swift */,
 				2B99A517281453C800AE7507 /* SuperKahramanModel.swift */,
+				2B99A5192815963100AE7507 /* MapView.swift */,
 				2B99A50D2814523200AE7507 /* Assets.xcassets */,
 				2B99A50F2814523200AE7507 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B99A50C2814522F00AE7507 /* ContentView.swift in Sources */,
+				2B99A51A2815963100AE7507 /* MapView.swift in Sources */,
 				2B99A50A2814522F00AE7507 /* SuperKahramanApp.swift in Sources */,
 				2B99A518281453C800AE7507 /* SuperKahramanModel.swift in Sources */,
 			);

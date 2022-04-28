@@ -27,5 +27,8 @@ struct Koordinat {
     var longitude: Double
 }
 
-let batman = Superkahraman(isim: "Batman", gorselİsmi: "batman", gercekİsim: "Bruce Wayne", sehir: "Gotham", meslek: "Businessman", koordinat: Koordinat(latitude: 20, longitude: 20))
-let superman = Superkahraman(isim: "Superman", gorselİsmi: "superman", gercekİsim: "Clark Kent", sehir: "New York", meslek: "Journalist", koordinat: Koordinat(latitude: 20, longitude: 20))
+let batman = Superkahraman(isim: "Batman", gorselİsmi: "batman", gercekİsim: "Bruce Wayne", sehir: "Gotham", meslek: "Businessman", koordinat: Koordinat(latitude: 41.8826214, longitude: -87.625598))
+
+let superman = Superkahraman(isim: "Superman", gorselİsmi: "superman", gercekİsim: "Clark Kent", sehir: "New York", meslek: "Journalist", koordinat: Koordinat(latitude: 40.7581248, longitude: -73.9830172))
+
+let SuperKahramanDizisi = [batman, superman]
