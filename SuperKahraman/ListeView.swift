@@ -11,7 +11,13 @@ struct ListeView: View {
     var body: some View {
         NavigationView {
             List(SuperKahramanDizisi) {superkahraman in
-                NavigationLink(destination: DetayView(secilenKahraman: superkahraman), label: { Text(superkahraman.isim)})
+                HStack {
+                    OzelGorselView(image: Image(superkahraman.gorselİsmi))
+                    NavigationLink(destination: DetayView(secilenKahraman: superkahraman), label: { VStack {
+                        Text(superkahraman.isim)
+                        Text(superkahraman.gercekİsim)
+                    }})
+                }
             }.navigationTitle(Text("Süper Kahramanlar"))
         }
     }
