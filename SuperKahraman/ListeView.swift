@@ -16,7 +16,9 @@ struct ListeView: View {
                     NavigationLink(destination: DetayView(secilenKahraman: superkahraman), label: { VStack {
                         Text(superkahraman.isim)
                         Text(superkahraman.gercekİsim)
-                    }})
+                    }
+                    }
+                    )
                 }
             }.navigationTitle(Text("Süper Kahramanlar"))
         }
